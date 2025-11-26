@@ -1,0 +1,17 @@
+# Dependencies and build output
+node_modules
+.next
+out
+build
+*.tsbuildinfo
+next-env.d.ts
+coverage
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local uploads and OS files
+public/uploads
+.DS_Store
